@@ -1,0 +1,63 @@
+.card {
+  display: flex;
+  width: 470px;
+  height: 168px;
+  justify-content: space-around;
+  align-items: center;
+  margin: 1em 2em;
+}
+
+.card .card-img {
+  width: 8em;
+  height: 10.5em;
+  object-fit: cover;
+  border-radius: 0.3em;
+}
+
+.card .card-body {
+  display: flex;
+  flex-direction: column;
+  margin: 1em;
+  row-gap: 0.5em;
+  text-align: start;
+  color: #2b283a;
+}
+
+.card .card-body .country {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  column-gap: 0.6em;
+  text-transform: uppercase;
+  font-size: 0.6rem;
+  letter-spacing: 0.25em;
+}
+
+.card .card-body .country .geo-icon {
+  fill: #f55a5a;
+  width: 0.7em;
+}
+
+.card .card-body .country a {
+  text-transform: none;
+  margin: 0 0.6em;
+  color: #918e9b;
+  text-decoration-line: underline;
+  letter-spacing: 0;
+}
+
+.card .card-body .location {
+  margin: 0 0 0.4em 0;
+}
+
+.card .card-body .duration {
+  margin: 0;
+  font-weight: 600;
+  font-size: 0.6rem;
+}
+
+.card .card-body .description {
+  margin: 0;
+  font-size: 0.6rem;
+  line-height: 1.4em;
+}
